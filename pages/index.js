@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoYoutube, IoLogoTwitch} from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello there... I&apos;m Computer Science student and a self-taught game developer from México!
+        Hello there... I&apos;m science in computer engineering student and a self-taught game developer from México!
 
       </Box>
 
@@ -46,6 +46,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Carlos Chin
           </Heading>
+          <p>@CharlyCodes</p>
           <p>Computer Science Student ( Speedcuber / Game Developer / Designer )</p>
         </Box>
         <Box
@@ -80,25 +81,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I&apos;m a computer science student, Jr videogame developer, speedcuber and teacher of
-          videogames programming for kids and teenagers. I like to learn new things everyday.  
-
-
-          {/*Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-product called{' '}*/}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          I&apos;m a science in computer engineering student, Jr videogames developer, speedcuber and teacher of electronic, robotics and videogames programming for kids and teenagers. I like to learn new things everyday. I'm also a
+          Junior Delegate of the{' '}
+          <NextLink href="https://www.worldcubeassociation.org/" passHref scroll={false} >
+            <Link target="_blank">World Cube Association</Link>
+          </NextLink>{' '}
+          and help other volunteers to organice and have speedcubing competitions in the country.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -111,91 +99,116 @@ product called{' '}*/}
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Resume
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2022 - Present</BioYear>
+          Student of Bachelor of Science in Computer Engineering Student.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2022 - Present</BioYear>
+          I work as a programming teacher at <Link href='https://www.academyplus.us/' target="_blank">Academy Plus</Link>
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2014 - 2022</BioYear>
+          Technology teacher at YOUGUI School of Technology. I taught: Game design, game proramming, Character Animation, Arduino and Robotics with LEGO MINDSTORMS EV3. Ages 7 - 17
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2020</BioYear>
+          Object Oriented programming teacher at MISION ADMISION. I worked as a high School Teacher for one semester.
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2021</BioYear>
+          Jr Programmer at RCK Games. Worked with the develop of the videogame "Lawlers Super Service" Using the Godot Engine.
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Adaptation and resking of the videogame "Frutiyuks de Animayuks" available on the Google Play Store.
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I ❤️
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Music,{' '} Photography,{' '}videogames and play with my Dog 🐶
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Socials
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/CharlyCodes" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="telegram"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @CharlyCodes
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+
+          {/*<ListItem>
+            <Link href="https://twitter.com/CharlyCodes" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @CharlyCodes
               </Button>
             </Link>
-          </ListItem>
+</ListItem>*/}
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://www.instagram.com/charlycodes" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @CharlyCodes
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://www.facebook.com/CharlyCodes" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="facebook"
+                leftIcon={<IoLogoFacebook/>}
+              >
+                @CharlyCodes
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://www.youtube.com/channel/UC6__C4AOKNflgEOEK_6dYPg?sub_confirmation=1" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="red"
+                leftIcon={<IoLogoYoutube />}
+              >
+                @CharlyCodes
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://twitch.tv/charlycodes" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<IoLogoTwitch/>}
+              >
+                @CharlyCodes
               </Button>
             </Link>
           </ListItem>
