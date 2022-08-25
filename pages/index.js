@@ -9,7 +9,9 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  chakra
+  chakra,
+  Stack,
+  Wrap
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -17,7 +19,14 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoYoutube, IoLogoTwitch} from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoFacebook,
+  IoLogoYoutube,
+  IoLogoTwitch
+} from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -37,8 +46,8 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello there... I&apos;m science in computer engineering student and a self-taught game developer from México!
-
+        Hello there... I&apos;m science in computer engineering student and a
+        self-taught game developer from México!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -47,7 +56,9 @@ const Home = () => (
             Carlos Chin
           </Heading>
           <p>@CharlyCodes</p>
-          <p>Computer Science Student ( Speedcuber / Game Developer / Designer )</p>
+          <p>
+            Computer Science Student ( Speedcuber / Game Developer / Designer )
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -81,16 +92,23 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I&apos;m a science in computer engineering student, Jr videogames developer, speedcuber and teacher of electronic, robotics and videogames programming for kids and teenagers. I like to learn new things everyday. I'm also a
-          Junior Delegate of the{' '}
-          <NextLink href="https://www.worldcubeassociation.org/" passHref scroll={false} >
+          I&apos;m a science in computer engineering student, Jr videogames
+          developer, speedcuber and teacher of electronic, robotics and
+          videogames programming for kids and teenagers. I like to learn new
+          things everyday. I'm also a Junior Delegate of the{' '}
+          <NextLink
+            href="https://www.worldcubeassociation.org/"
+            passHref
+            scroll={false}
+          >
             <Link target="_blank">World Cube Association</Link>
           </NextLink>{' '}
-          and help other volunteers to organice and have speedcubing competitions in the country.
+          and help other volunteers to organice and have speedcubing
+          competitions in the country.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
               My portfolio
             </Button>
           </NextLink>
@@ -103,28 +121,35 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2022 - Present</BioYear>
-          Student of Bachelor of Science in Computer Engineering Student.
+          Student of Bachelor of Science in Computer Engineering.
         </BioSection>
 
         <BioSection>
-          <BioYear>2022 - Present</BioYear>
-          I work as a programming teacher at <Link href='https://www.academyplus.us/' target="_blank">Academy Plus</Link>
+          <BioYear>2022 - Present</BioYear>I work as a programming teacher at{' '}
+          <Link href="https://www.academyplus.us/" target="_blank">
+            Academy Plus
+          </Link>
         </BioSection>
         <BioSection>
           <BioYear>2014 - 2022</BioYear>
-          Technology teacher at YOUGUI School of Technology. I taught: Game design, game proramming, Character Animation, Arduino and Robotics with LEGO MINDSTORMS EV3. Ages 7 - 17
+          Technology teacher at YOUGUI School of Technology. I taught: Game
+          design, game proramming, Character Animation, Arduino and Robotics
+          with LEGO MINDSTORMS EV3. Ages 7 - 17
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Object Oriented programming teacher at MISION ADMISION. I worked as a high School Teacher for one semester.
+          Object Oriented programming teacher at MISION ADMISION. I worked as a
+          high School Teacher for one semester.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Jr Programmer at RCK Games. Worked with the develop of the videogame "Lawlers Super Service" Using the Godot Engine.
+          Jr Programmer at RCK Games. Worked with the develop of the videogame
+          "Lawlers Super Service" Using the Godot Engine.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Adaptation and resking of the videogame "Frutiyuks de Animayuks" available on the Google Play Store.
+          Adaptation and resking of the videogame "Frutiyuks de Animayuks"
+          available on the Google Play Store.
         </BioSection>
       </Section>
 
@@ -133,7 +158,7 @@ const Home = () => (
           I ❤️
         </Heading>
         <Paragraph>
-          Music,{' '} Photography,{' '}videogames and play with my Dog 🐶
+          Music, Photography, videogames and play with my Dog 🐶
         </Paragraph>
       </Section>
 
@@ -141,48 +166,74 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Socials
         </Heading>
-        <List>
-          <ListItem>
-            <Link href="https://github.com/CharlyCodes" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="telegram"
-                leftIcon={<IoLogoGithub />}
-              >
-                @CharlyCodes
-              </Button>
-            </Link>
-          </ListItem>
 
-          {/*<ListItem>
+        <Wrap spacing="2" justify="center">
+          <Link
+            href="https://github.com/CharlyCodes"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button
+              variant="ghost"
+              colorScheme="gray"
+              size="md"
+              leftIcon={<IoLogoGithub />}
+            >
+              Github
+            </Button>
+          </Link>
+
+          <Link
+            href="https://www.instagram.com/charlycodes"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button
+              variant="ghost"
+              colorScheme="pink"
+              size="md"
+              leftIcon={<IoLogoInstagram />}
+            >
+              Instagram
+            </Button>
+          </Link>
+
+          <Link
+            href="https://www.facebook.com/CharlyCodes"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button
+              variant="ghost"
+              colorScheme="facebook"
+              size="md"
+              leftIcon={<IoLogoFacebook />}
+            >
+              Facebook
+            </Button>
+          </Link>
+
+          <Link
+            href="https://www.instagram.com/olasoymila"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button
+              variant="ghost"
+              colorScheme="pink"
+              size="md"
+              leftIcon={<IoLogoInstagram />}
+            >
+              Mila🐶
+            </Button>
+          </Link>
+        </Wrap>
+        {/*<ListItem>
             <Link href="https://twitter.com/CharlyCodes" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
-              >
-                @CharlyCodes
-              </Button>
-            </Link>
-</ListItem>*/}
-          <ListItem>
-            <Link href="https://www.instagram.com/charlycodes" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="purple"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @CharlyCodes
-              </Button>
-            </Link>
-          </ListItem>
-
-          <ListItem>
-            <Link href="https://www.facebook.com/CharlyCodes" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="facebook"
-                leftIcon={<IoLogoFacebook/>}
               >
                 @CharlyCodes
               </Button>
@@ -211,29 +262,29 @@ const Home = () => (
                 @CharlyCodes
               </Button>
             </Link>
-          </ListItem>
-        </List>
-
+</ListItem>
+</List> */}
+        <Section></Section>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://www.youtube.com/channel/UC6__C4AOKNflgEOEK_6dYPg?sub_confirmation=1"
+            title="CharlyCodes"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel (&gt;100k subs)
+            My YouTube channel (Consider Subscribe)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            href="https://twitch.tv/charlycodes"
+            title="CharlyCodes"
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+            I stream gameplays and coding sessions 
           </GridItem>
         </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
               Popular posts
             </Button>
           </NextLink>

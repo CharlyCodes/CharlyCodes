@@ -25,9 +25,10 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
-        bg={active ? 'grassTeal' : undefined}
+        bg={active ? '#d6bcfa' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}
+        style={{ textDecoration: 'none' }}
         {...props}
       >
         {children}
@@ -77,7 +78,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem
+          {/*<LinkItem
             target="_blank"
             href="https://github.com/craftzdog/craftzdog-homepage"
             path={path}
@@ -88,7 +89,7 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
-          </LinkItem>
+  </LinkItem>*/}
         </Stack>
 
         <Box flex={1} align="right">
