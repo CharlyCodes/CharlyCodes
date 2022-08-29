@@ -101,7 +101,7 @@ const Home = () => (
             passHref
             scroll={false}
           >
-            <Link target="_blank">World Cube Association</Link>
+            <Link target="_blank" style={{ textDecoration: 'none' }}>World Cube Association</Link>
           </NextLink>{' '}
           and help other volunteers to organice and have speedcubing
           competitions in the country.
@@ -126,7 +126,7 @@ const Home = () => (
 
         <BioSection>
           <BioYear>2022 - Present</BioYear>I work as a programming teacher at{' '}
-          <Link href="https://www.academyplus.us/" target="_blank">
+          <Link href="https://www.academyplus.us/" target="_blank" style={{ textDecoration: 'none' }}>
             Academy Plus
           </Link>
         </BioSection>
@@ -157,8 +157,8 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ❤️
         </Heading>
-        <Paragraph>
-          Music, Photography, videogames and play with my Dog 🐶
+        <Paragraph >
+          Music, Photography, speedcubing, videogames and play with my Dog 🐶
         </Paragraph>
       </Section>
 

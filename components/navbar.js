@@ -105,18 +105,18 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link} style={{ textDecoration: 'none' }}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}style={{ textDecoration: 'none' }}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                  <MenuItem as={Link}style={{ textDecoration: 'none' }}>Posts</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
                   href="https://github.com/craftzdog/craftzdog-homepage"
-                >
+                  style={{ textDecoration: 'none' }}>
                   View Source
                 </MenuItem>
               </MenuList>
