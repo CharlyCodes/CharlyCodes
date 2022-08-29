@@ -112,8 +112,8 @@ const Works = () => (
         </Section>
 
         <Section delay={0.3}>
-          <WorkGridItem id="techConference" thumbnail={thumbStyly} title="Tech Conferences and Workshops">
-            Conferences and Workshops of Technology
+          <WorkGridItem id="techConference" thumbnail={thumbStyly} title="Tech talks and Workshops">
+            Talks and Workshops of Technology
           </WorkGridItem>
         </Section>
 
@@ -149,7 +149,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-        <WorkGridItem id="conference" thumbnail={thumbAmembo} title="Conferences and Workshops">
+        <WorkGridItem id="conference" thumbnail={thumbAmembo} title="Talks and Workshops">
             Rubik's Cube and speedcube related activities
           </WorkGridItem>
         </Section>
