@@ -18,8 +18,8 @@ const Main = ({ children, router }) => {
         <meta name="description" content="CharlyCodes' homepage" />
         <meta name="author" content="Carlos Chin" />
         <meta name="author" content="CharlyCodes" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="alien.png" />
+        <link rel="shortcut icon" href="/alien.png" type="image/x-icon" />
         <meta name="twitter:title" content="Carlos Chin" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@CharlyCodes" />

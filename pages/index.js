@@ -28,7 +28,7 @@ import {
   IoLogoTwitch
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbTwitch from '../public/images/links/TW.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -57,7 +57,7 @@ const Home = () => (
           </Heading>
           <p>@CharlyCodes</p>
           <p>
-            Computer Science Student ( Speedcuber / Game Developer / Designer )
+            Science in computer Engineering student 🎒 ( Speedcuber / Game Developer 🎮 / Designer )
           </p>
         </Box>
         <Box
@@ -276,19 +276,19 @@ const Home = () => (
           <GridItem
             href="https://twitch.tv/charlycodes"
             title="CharlyCodes"
-            thumbnail={thumbInkdrop}
+            thumbnail={thumbTwitch}
           >
             I stream gameplays and coding sessions 
           </GridItem>
         </SimpleGrid>
 
-        <Box align="center" my={4}>
+        {/*<Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
               Popular posts
             </Button>
           </NextLink>
-        </Box>
+</Box>**/}
       </Section>
     </Container>
   </Layout>
