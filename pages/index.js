@@ -6,11 +6,8 @@ import {
   Box,
   SimpleGrid,
   Button,
-  List,
-  ListItem,
   useColorModeValue,
   chakra,
-  Stack,
   Wrap
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -20,12 +17,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import {
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoFacebook,
-  IoLogoYoutube,
-  IoLogoTwitch
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbTwitch from '../public/images/links/TW.png'
@@ -95,7 +89,7 @@ const Home = () => (
           I&apos;m a science in computer engineering student, Jr videogames
           developer, speedcuber and teacher of electronic, robotics and
           videogames programming for kids and teenagers. I like to learn new
-          things everyday. I'm also a Junior Delegate of the{' '}
+          things everyday. I&apos;m also a Junior Delegate of the{' '}
           <NextLink
             href="https://www.worldcubeassociation.org/"
             passHref
@@ -144,11 +138,11 @@ const Home = () => (
         <BioSection>
           <BioYear>2021</BioYear>
           Jr Programmer at RCK Games. Worked with the develop of the videogame
-          "Lawlers Super Service" Using the Godot Engine.
+          &quot;Lawlers Super Service&quot; Using the Godot Engine.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Adaptation and resking of the videogame "Frutiyuks de Animayuks"
+          Adaptation and resking of the videogame &quot;Frutiyuks de Animayuks&quot;
           available on the Google Play Store.
         </BioSection>
       </Section>

@@ -1,8 +1,11 @@
 {
+  "homepage":"https://charlycodes.github.io/CharlyCodes",
   "name": "carloschin-homepage",
   "version": "1.0.0",
   "description": "CharlyCodes' website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
@@ -27,6 +30,7 @@
   "devDependencies": {
     "eslint": "^8.22.0",
     "eslint-config-next": "^12.2.5",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   }
 }
