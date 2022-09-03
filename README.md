@@ -1,9 +1,9 @@
 # Hello there, I'm Carlos! 🖖
 
 <!-- CARDS -->
-<img align= "left" width="47%" src="https://github-readme-stats.vercel.app/api?username=ChinChinn&show_icons=true&theme=radical"/>
+<img align= "left" width="47%" src="https://github-readme-stats.vercel.app/api?username=CharlyCodes&show_icons=true&theme=radical"/>
 
-<img width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChinChinn&layout=compact"/> <br> 
+<img width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CharlyCodes&layout=compact"/> <br> 
 
 ## 📚 About me 
 
