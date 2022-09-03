@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Carlos Chin" />
         <meta name="author" content="CharlyCodes" />
         <link rel="apple-touch-icon" href="alien.png" />
-        <link rel="shortcut icon" href="/alien.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Carlos Chin" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@CharlyCodes" />
@@ -34,7 +34,7 @@ const Main = ({ children, router }) => {
 
       <NavBar path={router.asPath} />
 
-      <Container maxW="container.md" pt={14}>
+      <Container maxW="xl" pt={14}>
         {/*<LazyVoxelDog />*/}
 
         {children}
