@@ -56,7 +56,7 @@ const Works = () => (
             title="Lluvia de Frutas Remake"
             thumbnail={thumbFourPainters}
           >
-            Remake of my first Videogame "Lluvia de frutas"
+            Remake of my first Videogame &quot;Lluvia de frutas&quot;
           </WorkGridItem>
         </Section>
 
@@ -150,7 +150,7 @@ const Works = () => (
         </Section>
         <Section delay={0.6}>
         <WorkGridItem id="conference" thumbnail={thumbAmembo} title="Talks and Workshops">
-            Rubik's Cube and speedcube related activities
+            Rubik&apos;s Cube and speedcube related activities
           </WorkGridItem>
         </Section>
       </SimpleGrid>
