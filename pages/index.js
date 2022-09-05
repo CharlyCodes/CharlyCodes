@@ -31,7 +31,7 @@ const ProfileImage = chakra(Image, {
 
 const Home = () => (
   <Layout>
-    <Container>
+    <Container maxW='container.md'>
       <Box
         borderRadius="lg"
         mb={6}
@@ -40,7 +40,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello there... I&apos;m science in computer engineering student and a
+        Hello there!... I&apos;m science in computer engineering student and a
         self-taught game developer from México!
       </Box>
 

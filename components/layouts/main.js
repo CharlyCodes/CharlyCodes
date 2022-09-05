@@ -12,7 +12,7 @@ import Footer from '../footer'
 
 const Main = ({ children, router }) => {
   return (
-    <Box as="main" pb={8}>
+    <Box as="main" pb={8} alignItems='center'>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="CharlyCodes' homepage" />
@@ -24,17 +24,17 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@CharlyCodes" />
         <meta name="twitter:creator" content="@CharlyCodes" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+        
         <meta property="og:site_name" content="Carlos Chin" />
         <meta name="og:title" content="Carlos Chin" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        
         <title>Carlos Chin - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
 
-      <Container maxW="xl" pt={14}>
+      <Container maxW='container.xl' pt={20} centerContent>
         {/*<LazyVoxelDog />*/}
 
         {children}

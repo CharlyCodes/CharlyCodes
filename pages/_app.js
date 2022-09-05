@@ -21,7 +21,7 @@ function Website({ Component, pageProps, router }) {
             }
           }}
         >
-          <Component {...pageProps} key={router.route} />
+          <Component {...pageProps} key={router.route}/>
         </AnimatePresence>
       </Layout>
     </Chakra>
