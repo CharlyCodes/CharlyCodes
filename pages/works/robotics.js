@@ -12,26 +12,26 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-    <Layout title="Lluvia de Frutas">
+    <Layout title="Robotics">
         <Container maxW='container.md'>
             <Title>
-                Lluvia de Frutas <Badge>2014</Badge>
+                Robotics <Badge>2005 - 2022</Badge>
             </Title>
             <P>
-            The first videogame i participated... 
+            Videogame created for the Animayuks coorporation 
             </P>
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href='/'>Lluvia de frutas <ExternalLinkIcon mx='2px'/></Link>
+                    <Link href='/'>Frutiyuks de animayuks<ExternalLinkIcon mx='2px'/></Link>
                 </ListItem>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href='/'>Lluvia de frutas <ExternalLinkIcon mx='2px'/></Link>
+                    <Link href='/'>Frutiyuks de animayuks<ExternalLinkIcon mx='2px'/></Link>
                 </ListItem>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href='/'>Lluvia de frutas <ExternalLinkIcon mx='2px'/></Link>
+                    <Link href='/'>Frutiyuks de animayuks<ExternalLinkIcon mx='2px'/></Link>
                 </ListItem>
             </List>
             <WorkImage src="/images/works/Thumbs.png" alt="Lluvia_Frutas"/>
