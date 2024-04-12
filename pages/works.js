@@ -52,11 +52,11 @@ const Works = () => (
         
         <Section delay={0.1}>
           <WorkGridItem
-            id="remake"
-            title="Lluvia de Frutas Remake"
+            id="Axess"
+            title="AXESS by AXE"
             thumbnail={thumbFourPainters}
           >
-            Remake of my first Videogame &quot;Lluvia de frutas&quot;
+            Videogame made for the  &quot;Axe Ceremonia&quot; concert
           </WorkGridItem>
         </Section>
 
