@@ -1,75 +1,99 @@
-# Hello there, I'm Carlos! 🖖
+# Next.js Creative Portfolio Tutorial: Build Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
 
-<!-- CARDS -->
-<img align= "left" width="47%" src="https://github-readme-stats.vercel.app/api?username=CharlyCodes&show_icons=true&theme=radical"/>
+![GitHub stars](https://img.shields.io/github/stars/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
+![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
 
-<img width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CharlyCodes&layout=compact"/> <br> 
+This repository contains **starter code** for Next.js Creative Portfolio website built using Next.js and Three.js. <br />
 
-## 📚 About me 
+For Demo checkout following link👇: <br />
+[Nextjs Creative Portfolio Website Demo](https://next-js-creative-portfolio-website.vercel.app/) <br />
 
-### I'm a Computer Science student and a self-taught game developer from México. Also i work as a teacher of Electronic and VideoGame programming for kids.  <br><br> 
+Final Code👇: <br />
+➡ Link 💚: [Nextjs Creative Portfolio Website Final Code](https://github.com/codebucks27/Next.js-Creative-Portfolio-Website) <br />
+<!--- ➡ Link 2💚(If you want to support): [Nextjs Creative Portfolio Website Final Code](https://codebucks.gumroad.com/l/ypzlu) <br /> --->
 
-## 🔨 What I'm up to
+If you want to learn how to create it please follow below tutorial👇: <br />
+➡ Tutorial Link 💚: [Personal Portfolio Website with Next.js, Three.js & Tailwind CSS Tutorial](https://youtu.be/T5t46vuW8fo) 
+[![YouTube Video Views](https://img.shields.io/youtube/views/T5t46vuW8fo
+)](https://youtu.be/T5t46vuW8fo) <br />
 
-### I'm currently learning React for web development and still practicing Unity for professional game develop.   <br><br>
+💚 Checkout my personal website [DevDreaming](https://devdreaming.com) <br />
 
-<!-- LOGOS -->
+---
+# ⭐DO NOT FORGET TO STAR THIS REPO⭐
+---
 
-## 🎮 Game Development
+## Images of The Portfolio Website:
 
+#### Home
+![Nextjs Creative Portfolio Website](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-desktop.png)
 
-<img align= "left" alt="Unity" src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"/>
+#### About
+![Nextjs Creative Portfolio Website About Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-desktop-full.png)
 
-<img align= "left" alt="Godot" src="https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine"/> <br><br><br>
+#### Projects
+![Next.js Creative Portfolio Website Projects Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-desktop.png)
 
+#### Contact
+![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-desktop.png)
 
-## 💻 Web Development
+#### Mobile Version
+![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-mobile.png)
 
-<img align= "left" alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+## Resources Used in This Project
 
-<img align= "left" alt="NextJs" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
+#### 3D Models
 
-<img align= "left" alt="Javascript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+- ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu) by [elbertwithane is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
+- ["Stylized wizard hat"](https://skfb.ly/ozxOQ) by [Enkarra is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Wizard Staff"](https://skfb.ly/6QYZw) by [Toymancer Studio is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
-<img align= "left" alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+#### AI Images
 
-<img align= "left" alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+- Created with the help of [Playground AI](https://playgroundai.com/)
 
-<img align= "left" alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>  <br><br><br>
+#### Github Stats & Details
 
+- [Github ReadMe Stats](https://github.com/anuraghazra/github-readme-stats)
+- [Skills Icons](https://github.com/tandpfun/skill-icons)
+- [Github Readme Streak Stats](https://github.com/denvercoder1/github-readme-streak-stats)
 
-## 🖼️ Design
+#### Development Resources
 
-<img align="left" alt="Premiere Pro" src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white">
+- Fonts from [Google Fonts](https://fonts.google.com/) <br />
+- Icons from [Lucide Icons](https://lucide.dev/) <br />
+- Notifications from [Sonner](https://sonner.emilkowal.ski/) <br />
+- Form created using [react-hook-form](https://react-hook-form.com/) <br />
+- Animations using [framer-motion](https://www.framer.com/motion/) <br />
+- Emails using [Emailjs](https://www.emailjs.com/) <br />
+- Convert 3d models to JSX using [Gltf JSX](https://github.com/pmndrs/gltfjsx)
 
-<img align="left" alt="After Effects" src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white">
+#### Audio 
 
-<img align="left" alt="Photoshop" src="https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white">
+- Music by <a href="https://pixabay.com/users/shidenbeatsmusic-25676252/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Shiden Beats Music</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Pixabay</a>
 
-<img align="left" alt="Illustrator" src="https://img.shields.io/badge/adobeillustrator-%23FF9A00.svg?style=for-the-badge&logo=adobeillustrator&logoColor=white"> <br>
+---
 
-<img alt="Lightroom classic" src="https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white">  <br><br><br>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## ⚡ Other Languages
+## Getting Started
 
-<img align="left" alt="Arduino" src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white">
+First, install the dependencies and run the development server:
 
-<img align="left" alt="C#" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">  <br><br><br>
+```bash
+npm run install # to install all dependencies
 
-## 📲 How to reach me
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### You can reach me at the email in my github profile. Follow my socials!
-
-[<img alt="Instagram" height="40em" src="https://camo.githubusercontent.com/c9dacf0f25a1489fdbc6c0d2b41cda58b77fa210a13a886d6f99e027adfbd358/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f696e7374616772616d2e737667">](https://www.instagram.com/charlycodes/)
-
-
-
-
-
-
-
-
-
-
-Website is built based on the <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama's website</a>.
-
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
